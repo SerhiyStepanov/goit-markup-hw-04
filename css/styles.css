@@ -169,7 +169,7 @@ img {
   display: inline-block;
   width: 16px;
   height: 11px;
-  background-image: url(../images/post.svg);
+  background-image: url(../images/envelope.svg);
 }
 
 .phone::before {
