@@ -164,6 +164,15 @@ img {
   background-size: contain;
 }
 
+.contact .color {
+  fill: #757575;
+}
+
+.contact .color:hover,
+.contact .color:focus {
+  fill: var(--acent-color);
+}
+
 .icon-post {
   width: 16px;
   height: 11px;
@@ -679,6 +688,7 @@ footer {
   width: 24px;
   height: 24px;
   margin-left: 10px;
+  fill: var(--background-first);
 }
 
 /*   портфолио  фильтр */
