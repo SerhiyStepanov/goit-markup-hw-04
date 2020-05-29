@@ -437,11 +437,23 @@ img {
   padding-left: 0;
 }
 
+.team-social .color {
+  fill: var(--primary-social-color);
+}
+
 .team .link {
-  display: block;
-  padding: 12px;
-  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
   color: var(--primary-social-color);
+}
+
+.team-social .color:hover,
+.team-social .color:focus {
+  fill: var(--background-first);
 }
 
 .team-social .link:hover,
