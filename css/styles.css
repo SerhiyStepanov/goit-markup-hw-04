@@ -633,16 +633,10 @@ footer {
   background-color: var(--acent-color);
 }
 
-.button-secondary::after {
-  content: "";
+.icon-iconsend {
   width: 24px;
   height: 24px;
   margin-left: 10px;
-  padding-top: 13px;
-  padding-bottom: 13px;
-  align-items: center;
-  background-image: url("../images/iconsend.svg");
-  background-repeat: no-repeat;
 }
 
 /*   портфолио  фильтр */
