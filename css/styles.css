@@ -170,12 +170,10 @@ img {
   margin-right: 10px;
 }
 
-.phone::before {
-  content: "";
-  display: inline-block;
+.icon-phone {
   width: 10px;
   height: 15px;
-  background-image: url(../images/phone.svg);
+  margin-right: 10px;
 }
 
 .contact .link {
