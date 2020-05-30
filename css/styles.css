@@ -156,21 +156,8 @@ img {
   margin-left: 30px;
 }
 
-.contact .list::before {
-  content: "";
-  display: inline-block;
-  margin-right: 10px;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
 .contact .color {
   fill: #757575;
-}
-
-.contact .color:hover,
-.contact .color:focus {
-  fill: var(--acent-color);
 }
 
 .icon-post {
@@ -198,14 +185,20 @@ img {
   color: var(--acent-color);
 }
 
+.contact .color:hover,
+.contact .color:focus {
+  fill: var(--acent-color);
+}
+
 /* СТУДИЯ */
 
 /*  HERO  */
 .hero {
+  padding-top: 200px;
+  padding-right: 452px;
+  padding-bottom: 200px;
+  padding-left: 452px;
   text-align: center;
-}
-
-.hero-box {
   display: block;
   max-width: 1600px;
   height: 600px;
@@ -219,15 +212,8 @@ img {
     url(../images/Hero.jpg);
 }
 
-.hero-box > .content {
-  padding-top: 200px;
-  padding-right: 477px;
-  padding-bottom: 200px;
-  padding-left: 477px;
-}
-
 .hero .hero-title {
-  margin-bottom: 46px;
+  margin-bottom: 30px;
 
   font-weight: 900;
   font-size: 44px;
