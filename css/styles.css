@@ -479,21 +479,11 @@ img {
   border-radius: 4px;
 }
 
-.customers > .element:hover,
-.customers > .element:focus {
+.customers .element:hover,
+.customers .element:focus {
   border: 1px solid var(--acent-color);
-}
-
-.customers .element + .element {
-  margin-left: 30px;
-}
-
-.logotype {
-  display: block;
-}
-
-.logotype .color {
-  fill: #afb1b8;
+  background-color: var(--background-first);
+  fill: var(--acent-color);
 }
 
 .logotype .color:hover,
@@ -501,10 +491,21 @@ img {
   fill: var(--acent-color);
 }
 
+.customers .element + .element {
+  margin-left: 30px;
+}
+
+.logotype {
+  display: flex;
+}
+
+.logotype .color {
+  fill: #afb1b8;
+}
+
 .icon-logo-1 {
   width: 44px;
   height: 49px;
-  fill: #afb1b8;
 }
 
 .icon-logo-2 {
