@@ -157,8 +157,8 @@ img {
 }
 
 .contact .list {
-  color: var(--primary-social-color);
-  fill: var(--primary-social-color);
+  color: var(--primary-text-coor);
+  fill: var(--primary-text-coor);
 }
 
 .icon-post {
