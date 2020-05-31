@@ -423,8 +423,10 @@ img {
   padding-left: 0;
 }
 
-.team-social .color {
+.team-social .list {
+  background-color: var(--background-first);
   fill: var(--primary-social-color);
+  border-radius: 50%;
 }
 
 .team .link {
@@ -433,17 +435,31 @@ img {
   align-items: center;
   width: 44px;
   height: 44px;
-  border-radius: 50%;
-  color: var(--primary-social-color);
 }
 
-.team-social .color:hover,
-.team-social .color:focus {
+.team-social .icon-instagram {
+  width: 24px;
+  height: 24px;
+}
+
+.team-social .icon-twitter {
+  width: 20px;
+  height: 16px;
+}
+
+.team-social .icon-facebook {
+  width: 10px;
+  height: 20px;
+}
+
+.team-social .icon-linkedin {
+  width: 20px;
+  height: 20px;
+}
+
+.team-social .list:hover,
+.team-social .list:focus {
   fill: var(--background-first);
-}
-
-.team-social .link:hover,
-.team-social .link:focus {
   background-color: var(--acent-color);
 }
 
@@ -473,9 +489,9 @@ img {
   width: calc((100% - 150px) / 6);
   display: flex;
   height: 90px;
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--primary-social-color);
   border-radius: 4px;
-  fill: #afb1b8;
+  fill: var(--primary-social-color);
 }
 
 .customers .element + .element {
@@ -494,7 +510,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  fill: inherit;
 }
 
 .icon-logo-1 {
@@ -627,25 +642,25 @@ footer {
   background-color: var(--acent-color);
 }
 
-.icon-instagram {
+.foot-seti .icon-instagram {
   width: 20px;
   height: 20px;
   fill: var(--background-first);
 }
 
-.icon-twitter {
+.foot-seti .icon-twitter {
   width: 20px;
   height: 16px;
   fill: var(--background-first);
 }
 
-.icon-facebook {
+.foot-seti .icon-facebook {
   width: 10px;
   height: 20px;
   fill: var(--background-first);
 }
 
-.icon-linkedin {
+.foot-seti .icon-linkedin {
   width: 20px;
   height: 20px;
   fill: var(--background-first);
