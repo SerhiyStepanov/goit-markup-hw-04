@@ -156,8 +156,9 @@ img {
   margin-left: 30px;
 }
 
-.contact .color {
-  fill: #757575;
+.contact .list {
+  color: var(--primary-social-color);
+  fill: var(--primary-social-color);
 }
 
 .icon-post {
@@ -177,16 +178,12 @@ img {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-  color: var(--primary-text-coor);
+  color: inherit;
 }
 
-.page-header .contact .link:hover,
-.page-header .contact .link:focus {
+.page-header .contact .list:hover,
+.page-header .contact .list:focus {
   color: var(--acent-color);
-}
-
-.contact .color:hover,
-.contact .color:focus {
   fill: var(--acent-color);
 }
 
@@ -195,9 +192,7 @@ img {
 /*  HERO  */
 .hero {
   padding-top: 200px;
-  padding-right: 452px;
   padding-bottom: 200px;
-  padding-left: 452px;
   text-align: center;
   display: block;
   max-width: 1600px;
