@@ -178,7 +178,7 @@ img {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-  color: inherit;
+  color: var(--primary-text-coor);
 }
 
 .page-header .contact .list:hover,
