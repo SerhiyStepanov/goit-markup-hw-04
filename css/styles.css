@@ -156,21 +156,18 @@ img {
   margin-left: 30px;
 }
 
-.contact .list {
-  color: var(--primary-text-coor);
-  fill: var(--primary-text-coor);
-}
-
 .icon-post {
   width: 16px;
   height: 11px;
   margin-right: 10px;
+  fill: var(--primary-text-coor);
 }
 
 .icon-phone {
   width: 10px;
   height: 15px;
   margin-right: 10px;
+  fill: var(--primary-text-coor);
 }
 
 .contact .link {
@@ -181,8 +178,8 @@ img {
   color: var(--primary-text-coor);
 }
 
-.page-header .contact .list:hover,
-.page-header .contact .list:focus {
+.page-header .contact > .list:hover,
+.page-header .contact > .list:focus {
   color: var(--acent-color);
   fill: var(--acent-color);
 }
